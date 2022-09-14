@@ -1,0 +1,6 @@
+Hi {NAME}
+
+This is an example email
+
+Best regards,
+George Washington

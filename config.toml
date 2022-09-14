@@ -1,0 +1,7 @@
+[config]
+sender_email = ""
+sender_password = ""
+email_subject = ""
+emails_source_file = ""
+SMTP_server = ""
+port = ""
