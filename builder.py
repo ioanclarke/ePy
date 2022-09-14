@@ -39,7 +39,7 @@ class EmailBuilder:
     @staticmethod
     def add_attachments(message: MIMEMultipart) -> str:
         for filename in os.listdir("docs/attachments"):
-            with open(f"docs/attachments/{filename}", "rb") as attachment:
+            with open(f"attachments/{filename}", "rb") as attachment:
                 part = MIMEBase("application", "octet-stream")
                 part.set_payload(attachment.read())
             encoders.encode_base64(part)
